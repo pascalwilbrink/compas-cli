@@ -1,0 +1,37 @@
+{
+  "name": "@openscd/cli",
+  "version": "0.1.0",
+  "description": "OpenSCD Cli Tool",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/app.ts",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openscd/oscd-cli}.git"
+  },
+  "author": "Pascal Wilbrink <pascal.wilbrink@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openscd/oscd-cli/issues"
+  },
+  "homepage": "https://github.com/openscd/oscd-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "change-case": "^4.1.2",
+    "commander": "^10.0.0",
+    "figlet": "^1.5.2",
+    "handlebars": "^4.7.7",
+    "handlebars-delimiters": "^1.0.0",
+    "inquirer": "^8.2.4",
+    "ora": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.5",
+    "@types/inquirer": "^9.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}
